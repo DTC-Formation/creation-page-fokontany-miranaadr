@@ -2,28 +2,21 @@
     background-color: #03C2E0;
     padding: 40px 40px 40px 40px;
     display: flex;
-    width: 70%;
-    height:600px;
+    width: 80%;
+    height:100%;
 }
 .lottery-display{
     background-color:#0172FD ;
     padding:10px 5px 10px 5px ;
     width: 50%;
-    height:500px;
+    min-height:100%;
 
 }
 .register{
     background-color: #EBEEF0;
-    padding:30px 5px 0px 30px ;
+    padding:10px 5px 0px 30px ;
     width: 50%;
-    height:500px;
-
-}
-.body-login{
-    background-color: #03C2E0;
-    margin: 50px 50px 50px 600px;
-    text-align: center;
-    width:240px;
+    min-height:100%;
 
 }
 .user-submit{
@@ -32,6 +25,9 @@
 }
 .user-submit input{
     background-color: #0172FD;
+    color :#EBEEF0 ;
+    width: 100px;
+    height: 40px;
 }
 .user-video{
     margin: 40px;
@@ -42,6 +38,31 @@
 label , input , select{
     margin-bottom: 10px;
 }
-.deja-membre{
-    display:block;
+.deja-membre a{
+    color:#0172FD;
+}
+.login{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    background-color: #EBEEF0;
+    margin-left: 100px;
+}
+.body-login{
+    background-color: #03C2E0;
+    text-align: center;
+    width:50%;
+    margin: 50px;
+    padding: 20px;
+}
+.photo-login{
+    width: 50%;
+    margin: 50px;
+}
+.login-connecter input{
+    background-color:#EBEEF0;
+    color: #0172FD;
+    width: 100px;
+    height: 30px;
+    
 }
