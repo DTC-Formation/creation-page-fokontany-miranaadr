@@ -1,0 +1,47 @@
+.body-inscription{
+    background-color: #03C2E0;
+    padding: 40px 40px 40px 40px;
+    display: flex;
+    width: 70%;
+    height:600px;
+}
+.lottery-display{
+    background-color:#0172FD ;
+    padding:10px 5px 10px 5px ;
+    width: 50%;
+    height:500px;
+
+}
+.register{
+    background-color: #EBEEF0;
+    padding:30px 5px 0px 30px ;
+    width: 50%;
+    height:500px;
+
+}
+.body-login{
+    background-color: #03C2E0;
+    margin: 50px 50px 50px 600px;
+    text-align: center;
+    width:240px;
+
+}
+.user-submit{
+    color:#EBEEF0 ;
+    text-align: center;
+}
+.user-submit input{
+    background-color: #0172FD;
+}
+.user-video{
+    margin: 40px;
+}
+#lottery-h2{
+    color:#EBEEF0;
+}
+label , input , select{
+    margin-bottom: 10px;
+}
+.deja-membre{
+    display:block;
+}
